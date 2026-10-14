@@ -4,6 +4,8 @@ Caça vagas de **Web e Automação**, pontua cada uma (Match Score 0–100), esc
 e o checklist técnico, e organiza tudo num quadro Kanban do Obsidian, com avisos no Telegram.
 **Ele não envia nada em seu nome:** você revisa o rascunho, envia na plataforma e marca a etapa no bot.
 
+🎬 **Demonstração (44 s):** [docs/demo.mp4](docs/demo.mp4)
+
 ## Instalação
 
 ```bash
