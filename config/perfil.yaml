@@ -1,0 +1,65 @@
+# Seu perfil — usado no Match Score e nos rascunhos de proposta.
+nome: Weslley
+resumo: >
+  Desenvolvedor (ADS) focado em desenvolvimento web full-stack e automação:
+  APIs REST, integrações de pagamento, web scraping, RPA e bots.
+
+portfolio:
+  - titulo: "Exemplo: Bot de atendimento no Telegram"
+    url: "https://github.com/SEU_USUARIO/projeto-1"
+    tags: [bot, telegram, python, automacao]
+  - titulo: "Exemplo: Landing page com checkout"
+    url: "https://github.com/SEU_USUARIO/projeto-2"
+    tags: [landing page, pagamento, web, front-end]
+
+# Palavras-chave por área. Peso maior = mais aderente.
+areas:
+  web:
+    peso: 1.0
+    palavras: [landing page, site, sistema web, full-stack, fullstack, api, rest, backend, back-end,
+               front-end, frontend, react, next.js, vue, node, node.js, django, flask, fastapi, laravel,
+               php, javascript, typescript, html, css, wordpress, bug, correção, integração de pagamento,
+               mercado pago, stripe, pagseguro, asaas, pix, webhook, banco de dados, postgres, mysql]
+  automacao:
+    peso: 1.2
+    palavras: [scraping, scraper, raspagem, crawler, automação, automacao, automatizar, rpa, bot,
+               chatbot, telegram, discord, whatsapp, selenium, playwright, puppeteer, python, script,
+               planilha, google sheets, n8n, zapier, integração, webhook, etl]
+
+# Se aparecer no TÍTULO, a vaga é descartada (score 0).
+exclusoes_titulo: [logo, logotipo, design gráfico, identidade visual, edição de vídeo, editor de vídeo,
+                   motion, redação, redator, copywriter, artigo, tradução, suporte técnico, help desk,
+                   social media, ilustração, animação, swift, kotlin, unity, jogo, game,
+                   suporte, soporte, support, atención al cliente, atendimento ao cliente,
+                   assistente virtual, virtual assistant, data entry,
+                   flutter, react native, ios, android, app mobile, aplicativo mobile,
+                   # anúncios repetitivos/gerados no Freelancer.com ("... (sandbox #57)")
+                   sandbox, quick task, iteration]
+
+# Se aparecer na descrição, reduz o score (não descarta).
+penalidades_descricao: [design gráfico, edição de vídeo, redação, criação de conteúdo, post para instagram]
+
+# Conversão aproximada para BRL (orçamentos em outras moedas)
+cambio_brl:
+  BRL: 1.0
+  USD: 5.4
+  EUR: 5.9
+  GBP: 7.0
+  INR: 0.064
+
+fontes:
+  workana:
+    ativo: true
+    urls:
+      - "https://www.workana.com/jobs?category=it-programming&language=pt"
+      - "https://www.workana.com/jobs?category=it-programming&language=pt&page=2"
+      - "https://www.workana.com/jobs?category=it-programming&language=pt&page=3"
+  noventa_nove:
+    ativo: true
+    urls:
+      - "https://www.99freelas.com.br/projects?categoria=web-mobile-e-software"
+      - "https://www.99freelas.com.br/projects?categoria=web-mobile-e-software&page=2"
+      - "https://www.99freelas.com.br/projects?categoria=web-mobile-e-software&page=3"
+  freelancer:
+    ativo: false
+    buscas: [python automation, web scraping, telegram bot, landing page, rest api, whatsapp bot]
